@@ -1,0 +1,70 @@
+{
+	n_cas : null,
+	agente: 'Aceite mineral, niebla',
+	twa-ppm: null,
+	twa-mg-m3: 5,
+	stel-ppm: null,
+	stel-mg-m3: 10,
+	peso-molecular: null,
+	notas: null
+}
+{
+	n_cas : null,
+	agente: 'Aceite mineral, niebla',
+	twa-ppm: null,
+	twa-mg-m3: 10,
+	stel-ppm: null,
+	stel-mg-m3: null,
+	peso-molecular: null,
+	notas: (a)
+}
+{
+	n_cas : '75-07-0',
+	agente: 'Acetaldehido',
+	twa-ppm: null,
+	twa-mg-m3: null,
+	stel-ppm: 'C 25',
+	stel-mg-m3: 'C 45',
+	peso-molecular: 44.05,
+	notas: null
+}
+{
+	n_cas : '628-63-7',
+	agente: 'Acetato de n-amilo',
+	twa-ppm: 50,
+	twa-mg-m3: 266,
+	stel-ppm: '100',
+	stel-mg-m3: '532',
+	peso-molecular: 130.2,
+	notas: null
+}
+{
+	n_cas : '626-38-0',
+	agente: 'Acetato de sec-amilo',
+	twa-ppm: 50,
+	twa-mg-m3: 266,
+	stel-ppm: '100',
+	stel-mg-m3: '532',
+	peso-molecular: 130.2,
+	notas: null
+}
+{
+	n_cas : '625-16-1',
+	agente: 'Acetato de ter-amilo',
+	twa-ppm: 50,
+	twa-mg-m3: 266,
+	stel-ppm: '100',
+	stel-mg-m3: '532',
+	peso-molecular: 130.2,
+	notas: null
+}
+{
+	n_cas : '140-11-4',
+	agente: 'Acetato de bencilo',
+	twa-ppm: 10,
+	twa-mg-m3: 61,
+	stel-ppm: null,
+	stel-mg-m3: null,
+	peso-molecular: 150.18,
+	notas: null
+}
