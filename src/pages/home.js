@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, TextInput } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 import  Menus  from './menu'
 import  Codes  from './codes'
 
-class HomeScreen extends React.Component {
+class HomeScreen extends Component {
     static navigationOptions = {
         header: null
     }
+
     render(){
         const { navigate } = this.props.navigation;
         return(
@@ -25,6 +26,7 @@ const NavigationApp = createStackNavigator({
     Menus : { screen: Menus },
     codes : { screen:  Codes },
 },{ headerMode: 'none', })
+
 
 
 export default class App extends React.Component {

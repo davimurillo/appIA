@@ -30,15 +30,23 @@ export default class ProfileScreen extends Component {
     }
 
     handleKeyDown = (e) => {
-        alert('entre');
         if(e.nativeEvent.key == "Enter"){
             this.props.navigation.navigate('codes', { id: this.state.codigo })
         }
     }
 
     render(){
-        console.log(this.props.navigation);
         const {codigo, agente} = this.state
+        const {text} = this.state
+
+        if (!text) return // Don't submit if empty
+
+        onSubmitEditing(text)
+        this.setState({text: ''})
+    }
+    render(){
+
+        const {text} = this.state
         const { navigate } = this.props.navigation;
         return(
             <View style={styles.containerProfile}>
@@ -65,17 +73,20 @@ export default class ProfileScreen extends Component {
                     onSubmitEditing={this.onSubmitEditing}
                 />
 
-                <View style={styles.containerFoo}>
-                    <Image source={require('../img/minsa-logo.png')}
-                           style={{width: 300, height: 100}} />
-                </View>
+                       style={{width: 300, height: 100}} />
+                <TextInput
+                    style={styles.input}
+                    value={text}
+                    placeholder={'Código o Descripción a buscar'}
+                    onChangeText={this.onChangeText}
+                    onSubmitEditing={this.onSubmitEditing}
+                />
+
             </View>
 
         )
     }
 }
-
-
 
 const styles = StyleSheet.create({
     containerProfile: {
