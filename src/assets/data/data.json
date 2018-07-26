@@ -1,0 +1,34 @@
+{
+  "agentes":
+  [{
+    "n_cas" : null,
+    "agente": "Aceite mineral, niebla",
+    "twa-ppm": null,
+    "twa-mg-m3": 5,
+    "stel-ppm": null,
+    "stel-mg-m3": 10,
+    "peso-molecular": null,
+    "notas": null
+  },
+    {
+      "n_cas" : null,
+      "agente": "Aceite mineral, niebla",
+      "twa-ppm": null,
+      "twa-mg-m3": 5,
+      "stel-ppm": null,
+      "stel-mg-m3": 10,
+      "peso-molecular": null,
+      "notas": null
+    },
+    {
+      "n_cas" : null,
+      "agente": "Aceite mineral, niebla",
+      "twa-ppm": null,
+      "twa-mg-m3": 5,
+      "stel-ppm": null,
+      "stel-mg-m3": 10,
+      "peso-molecular": null,
+      "notas": null
+    }
+  ]
+}

@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">IAmbientales</string>
+=======
     <string name="app_name">AwesomeProject</string>
+>>>>>>> master
 </resources>

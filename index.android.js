@@ -4,4 +4,3 @@ import App from './App';
 AppRegistry.registerComponent('AwesomeProject', () => App);
 
 console.disableYellowBox = true;
-

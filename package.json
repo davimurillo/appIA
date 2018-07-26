@@ -9,6 +9,8 @@
   "dependencies": {
     "react": "16.3.1",
     "react-native": "0.55.4",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-view-pdf": "^0.3.2",
     "react-navigation": "^2.9.0"
   },
   "devDependencies": {
